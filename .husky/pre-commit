@@ -1,3 +1,7 @@
 #!/usr/bin/env sh
 
+
+# Adiciona o caminho do bun ao PATH
+export PATH="/home/node/.bun/bin:$PATH"
+
 bun run lint-staged
